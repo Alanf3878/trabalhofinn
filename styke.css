@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2CB3F3;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+}
+.chapeu{
+    position: absolute;
+    width: 880px;
+    height: 616px;
+    left: 243px;
+    top: 245px;
+    background-color: white;
+    border-radius: 20% 20% 0 0;
+}
+.rosto{
+    background-color: #FFE1C9;
+    position: absolute;
+    width: 692px;
+    height: 487px;
+    left: 337px;
+    top: 309px;
+    border-radius: 50%;
+
+}
+
+.olho-esquerdo{
+    background-color: black;
+    position: absolute;
+    width: 55.7px;
+    height: 55.7px;
+    left: 515.39px;
+    top: 405.88px;
+    border-radius: 50%;
+}
+.olho-direito{
+    background-color: black;
+    position: absolute;
+    width: 55.7px;
+    height: 55.7px;
+    left: 795.46px;
+    top: 405.88px;
+    border-radius: 50%;
+
+}
+.boca{
+    position: absolute;
+    z-index: 999;
+    width: 421.96px;
+    height: 63.65px;
+    left: 238.29px;
+    top: 283px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.but{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border:none;
+    background: green;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #006000;
+    
+    
+}
+.email{
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 250px;
+    
+}
+.password{
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 250px;
+    
+}
+.box-but{
+    margin-bottom: 3rem;
+    position: absolute;
+    z-index: 9999;
+    width: 373.96px;
+    height: 63.65px;
+    left: 630.29px;
+    top: 889px;
+}
